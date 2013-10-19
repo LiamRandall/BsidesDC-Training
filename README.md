@@ -1,6 +1,16 @@
 Sample syllabus:
 ===============
 
+0. Setup VM
+  1. COPY files from stick to USB
+  2. Install VirtualBox & VirtualBox Extensions
+  3. Uncompress files- 7-zip on Windows, "The Unarchiver" on Mac
+  4. Open the VM (replace BroTraining.vbox)
+  5. logon bro/bro
+  6. Class files, either:
+    1. Mount the folder
+    2. git clone https://github.com/LiamRandall/BsidesDC-Training.git
+    3. Download zip from https://github.com/LiamRandall/BsidesDC-Training/archive/master.zip
 1. [What is Bro?](https://github.com/broala/training-resources/raw/master/0.broala-what-is-bro.pptx)
   1. Bro is a language first
   2. Event-driven
