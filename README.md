@@ -25,6 +25,11 @@
 5. HTTP Auth
   1. Exercise: ```bro -C -r http-auth.pcap``` ([pcap](https://github.com/broala/training-resources/raw/master/http-auth/http-auth.pcap))
   2. Exercise: ```bro -C -r http-auth.pcap http-auth.bro``` ([script](https://github.com/broala/training-resources/raw/master/http-auth/http-auth.bro))
+6. bro-cut
+  1. Exercise: ```bro -C -r http-basic-auth-multiple-failures.pcap```
+  2. What is the count of the distinct status_code: cat http.log | bro-cut status_code | sort | uniq -c | sort -n 
+  3. What were the status codes by username?
+  4. What happened here:  "      1 -  test"  Why is this line missing the status_code?  (hint: conn.log)
 6. [Notice Framework](https://github.com/broala/trainings-resources/raw/master/notice-framework/broala-bro-ids-v2.2-notice.log_Overview.pptx)
   1. Exercise: ```bro -r 01_emailing_simple.bro synscan.pcap``` ([script](https://github.com/broala/training-resources/raw/master/notice-framework/01_emailing_simple.bro), [pcap](https://github.com/broala/training-resources/raw/master/notice-framework/synscan.pcap))
   2. Exercise: ```bro -r 02_emailing_complex.bro synscan.pcap``` ([script](https://github.com/broala/training-resources/raw/master/notice-framework/02_emailing_complex.bro), [pcap](https://github.com/broala/training-resources/raw/master/notice-framework/synscan.pcap))
