@@ -1,4 +1,4 @@
-Sample syllabus:
+2013-10 BsidesDC Syllabus:
 ===============
 
 0. Setup VM
